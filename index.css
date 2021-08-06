@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
+    background-color: cadetblue;
 }
 
 .container {
@@ -65,18 +66,18 @@ body {
 #resultado .participante {
     display: inline-block;
     padding: 12px 20px;
-    background: #eee;
+    background: rgb(138, 136, 136);
     border-radius: 20px;
 }
 
 .ganhou {
-    background: rgb(236, 0, 0);
+    background: rgb(67, 236, 0);
 }
 
 .perder {
-    background: springgreen;
+    background: rgb(236, 0, 0);
 }
 
 .empate {
-    background: rgb(199, 199, 199);
+    background: rgb(236, 226, 226);
 }
